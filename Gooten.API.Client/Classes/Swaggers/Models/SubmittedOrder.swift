@@ -25,4 +25,3 @@ public class SubmittedOrder: JSONEncodable {
         return dictionary
     }
 }
-

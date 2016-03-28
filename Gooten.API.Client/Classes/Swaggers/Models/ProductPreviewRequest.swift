@@ -33,4 +33,3 @@ public class ProductPreviewRequest: JSONEncodable {
         return dictionary
     }
 }
-

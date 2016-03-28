@@ -27,4 +27,3 @@ public class Currency: JSONEncodable {
         return dictionary
     }
 }
-

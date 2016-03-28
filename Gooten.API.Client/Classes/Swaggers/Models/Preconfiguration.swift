@@ -27,4 +27,3 @@ public class Preconfiguration: JSONEncodable {
         return dictionary
     }
 }
-

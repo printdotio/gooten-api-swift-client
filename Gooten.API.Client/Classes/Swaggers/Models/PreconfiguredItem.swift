@@ -29,4 +29,3 @@ public class PreconfiguredItem: JSONEncodable {
         return dictionary
     }
 }
-

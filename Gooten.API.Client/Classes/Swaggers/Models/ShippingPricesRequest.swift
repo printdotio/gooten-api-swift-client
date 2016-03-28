@@ -33,4 +33,3 @@ public class ShippingPricesRequest: JSONEncodable {
         return dictionary
     }
 }
-

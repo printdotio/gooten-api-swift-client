@@ -21,4 +21,3 @@ public class PreconfiguredProductsInsertResponse: JSONEncodable {
         return dictionary
     }
 }
-

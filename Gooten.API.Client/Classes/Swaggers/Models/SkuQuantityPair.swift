@@ -25,4 +25,3 @@ public class SkuQuantityPair: JSONEncodable {
         return dictionary
     }
 }
-

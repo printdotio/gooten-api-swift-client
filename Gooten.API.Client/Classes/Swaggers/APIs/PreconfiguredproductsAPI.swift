@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class PreconfiguredproductsAPI: APIBase {
-
     /**
      
      Insert a preconfigured product
@@ -26,7 +24,6 @@ public class PreconfiguredproductsAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -56,7 +53,6 @@ public class PreconfiguredproductsAPI: APIBase {
         return requestBuilder.init(method: "POST", URLString: URLString, parameters: parameters, isBody: true)
     }
 
-
     /**
      
      Delete a preconfigured product
@@ -71,7 +67,6 @@ public class PreconfiguredproductsAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -104,7 +99,6 @@ public class PreconfiguredproductsAPI: APIBase {
         return requestBuilder.init(method: "DELETE", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
     /**
      
      Get a list of your preconfigured products
@@ -121,7 +115,6 @@ public class PreconfiguredproductsAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -185,7 +178,6 @@ public class PreconfiguredproductsAPI: APIBase {
         return requestBuilder.init(method: "GET", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
     /**
      
      Update a preconfigured product
@@ -200,7 +192,6 @@ public class PreconfiguredproductsAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -230,7 +221,4 @@ public class PreconfiguredproductsAPI: APIBase {
         return requestBuilder.init(method: "PUT", URLString: URLString, parameters: parameters, isBody: true)
     }
 
-
 }
-
-

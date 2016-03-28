@@ -25,4 +25,3 @@ public class ImageValidatorResult: JSONEncodable {
         return dictionary
     }
 }
-

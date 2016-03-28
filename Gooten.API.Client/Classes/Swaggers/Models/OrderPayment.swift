@@ -36,4 +36,3 @@ public class OrderPayment: JSONEncodable {
         return dictionary
     }
 }
-

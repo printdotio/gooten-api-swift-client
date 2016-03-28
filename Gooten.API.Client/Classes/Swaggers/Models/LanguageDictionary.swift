@@ -25,4 +25,3 @@ public class LanguageDictionary: JSONEncodable {
         return dictionary
     }
 }
-

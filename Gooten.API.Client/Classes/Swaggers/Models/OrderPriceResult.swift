@@ -41,4 +41,3 @@ public class OrderPriceResult: JSONEncodable {
         return dictionary
     }
 }
-

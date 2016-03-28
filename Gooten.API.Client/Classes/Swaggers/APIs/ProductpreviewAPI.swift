@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class ProductpreviewAPI: APIBase {
-
     /**
      
      Submit an image (or images) to be rendered into a product preview.
@@ -24,7 +22,6 @@ public class ProductpreviewAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -54,7 +51,4 @@ public class ProductpreviewAPI: APIBase {
         return requestBuilder.init(method: "POST", URLString: URLString, parameters: parameters, isBody: true)
     }
 
-
 }
-
-

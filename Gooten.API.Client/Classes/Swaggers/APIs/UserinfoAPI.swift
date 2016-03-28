@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class UserinfoAPI: APIBase {
-
     /**
      
      Get the user's language code and country based upon IP
@@ -24,7 +22,6 @@ public class UserinfoAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -60,7 +57,4 @@ public class UserinfoAPI: APIBase {
         return requestBuilder.init(method: "GET", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
 }
-
-

@@ -56,4 +56,3 @@ public class Product: JSONEncodable {
         return dictionary
     }
 }
-

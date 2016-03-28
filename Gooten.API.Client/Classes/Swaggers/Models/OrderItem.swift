@@ -29,4 +29,3 @@ public class OrderItem: JSONEncodable {
         return dictionary
     }
 }
-

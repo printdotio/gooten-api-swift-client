@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class LanguagesAPI: APIBase {
-
     /**
      
      Get text in a specified language
@@ -25,7 +23,6 @@ public class LanguagesAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -62,7 +59,4 @@ public class LanguagesAPI: APIBase {
         return requestBuilder.init(method: "GET", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
 }
-
-

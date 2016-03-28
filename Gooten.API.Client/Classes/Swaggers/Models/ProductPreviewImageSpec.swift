@@ -31,4 +31,3 @@ public class ProductPreviewImageSpec: JSONEncodable {
         return dictionary
     }
 }
-

@@ -30,4 +30,3 @@ public class ProductInfo: JSONEncodable {
         return dictionary
     }
 }
-

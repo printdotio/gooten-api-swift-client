@@ -23,4 +23,3 @@ public class FileResult: JSONEncodable {
         return dictionary
     }
 }
-

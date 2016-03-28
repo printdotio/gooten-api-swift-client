@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class CountriesAPI: APIBase {
-
     /**
      
      Get a list of supported countries. Output is in specified language.
@@ -25,7 +23,6 @@ public class CountriesAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -69,7 +66,4 @@ public class CountriesAPI: APIBase {
         return requestBuilder.init(method: "GET", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
 }
-
-

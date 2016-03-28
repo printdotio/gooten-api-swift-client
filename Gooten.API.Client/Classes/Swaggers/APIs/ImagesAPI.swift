@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class ImagesAPI: APIBase {
-
     /**
      
      POSTs files to a temporary store
@@ -24,7 +22,6 @@ public class ImagesAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -61,7 +58,4 @@ public class ImagesAPI: APIBase {
         return requestBuilder.init(method: "POST", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
 }
-
-

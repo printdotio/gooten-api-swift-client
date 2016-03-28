@@ -31,4 +31,3 @@ public class Image: JSONEncodable {
         return dictionary
     }
 }
-

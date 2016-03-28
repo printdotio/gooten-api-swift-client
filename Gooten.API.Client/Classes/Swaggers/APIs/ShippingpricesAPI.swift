@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class ShippingpricesAPI: APIBase {
-
     /**
      
      Get a list of shipping options and prices for items
@@ -25,7 +23,6 @@ public class ShippingpricesAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -71,7 +68,4 @@ public class ShippingpricesAPI: APIBase {
         return requestBuilder.init(method: "POST", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
 }
-
-

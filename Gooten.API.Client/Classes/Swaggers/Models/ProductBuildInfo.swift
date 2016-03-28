@@ -53,4 +53,3 @@ public class ProductBuildInfo: JSONEncodable {
         return dictionary
     }
 }
-

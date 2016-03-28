@@ -33,4 +33,3 @@ public class Country: JSONEncodable {
         return dictionary
     }
 }
-

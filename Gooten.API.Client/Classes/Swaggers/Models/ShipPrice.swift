@@ -27,4 +27,3 @@ public class ShipPrice: JSONEncodable {
         return dictionary
     }
 }
-

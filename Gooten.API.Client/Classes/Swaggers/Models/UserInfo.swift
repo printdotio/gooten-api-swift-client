@@ -33,4 +33,3 @@ public class UserInfo: JSONEncodable {
         return dictionary
     }
 }
-

@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class PriceestimateAPI: APIBase {
-
     /**
      
      Get an order price
@@ -26,7 +24,6 @@ public class PriceestimateAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -73,7 +70,4 @@ public class PriceestimateAPI: APIBase {
         return requestBuilder.init(method: "POST", URLString: URLString, parameters: parameters, isBody: true)
     }
 
-
 }
-
-

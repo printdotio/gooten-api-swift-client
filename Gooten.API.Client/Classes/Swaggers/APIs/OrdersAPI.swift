@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class OrdersAPI: APIBase {
-
     /**
      
      Get an order
@@ -27,7 +25,6 @@ public class OrdersAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -113,7 +110,6 @@ public class OrdersAPI: APIBase {
         return requestBuilder.init(method: "GET", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
     /**
      
      Submit an order
@@ -128,7 +124,6 @@ public class OrdersAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -160,7 +155,4 @@ public class OrdersAPI: APIBase {
         return requestBuilder.init(method: "POST", URLString: URLString, parameters: parameters, isBody: true)
     }
 
-
 }
-
-

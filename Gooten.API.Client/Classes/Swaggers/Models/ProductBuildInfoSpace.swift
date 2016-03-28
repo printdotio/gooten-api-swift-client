@@ -31,4 +31,3 @@ public class ProductBuildInfoSpace: JSONEncodable {
         return dictionary
     }
 }
-

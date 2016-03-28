@@ -25,4 +25,3 @@ public class PaymentValidationRequest: JSONEncodable {
         return dictionary
     }
 }
-

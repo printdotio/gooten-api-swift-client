@@ -25,4 +25,3 @@ public class ModelFile: JSONEncodable {
         return dictionary
     }
 }
-

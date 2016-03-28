@@ -33,4 +33,3 @@ public class ProductVariant: JSONEncodable {
         return dictionary
     }
 }
-

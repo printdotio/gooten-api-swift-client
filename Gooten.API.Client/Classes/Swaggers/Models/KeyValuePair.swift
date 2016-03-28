@@ -25,4 +25,3 @@ public class KeyValuePair: JSONEncodable {
         return dictionary
     }
 }
-

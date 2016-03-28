@@ -40,4 +40,3 @@ public class ShipOption: JSONEncodable {
         return dictionary
     }
 }
-

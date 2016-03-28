@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class AddressvalidationAPI: APIBase {
-
     /**
      
      Validates an address and returns a suggested address (if available) and a validation score.
@@ -29,7 +27,6 @@ public class AddressvalidationAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -79,7 +76,4 @@ public class AddressvalidationAPI: APIBase {
         return requestBuilder.init(method: "GET", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
 }
-
-

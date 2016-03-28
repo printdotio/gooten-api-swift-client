@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class ImagevalidationAPI: APIBase {
-
     /**
      
      Submit image validation
@@ -24,7 +22,6 @@ public class ImagevalidationAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -57,7 +54,4 @@ public class ImagevalidationAPI: APIBase {
         return requestBuilder.init(method: "POST", URLString: URLString, parameters: parameters, isBody: true)
     }
 
-
 }
-
-

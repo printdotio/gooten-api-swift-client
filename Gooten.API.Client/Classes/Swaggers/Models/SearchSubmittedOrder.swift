@@ -41,4 +41,3 @@ public class SearchSubmittedOrder: JSONEncodable {
         return dictionary
     }
 }
-

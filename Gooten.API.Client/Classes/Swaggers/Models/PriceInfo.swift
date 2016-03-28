@@ -31,4 +31,3 @@ public class PriceInfo: JSONEncodable {
         return dictionary
     }
 }
-

@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class ProductvariantsAPI: APIBase {
-
     /**
      
      Get a list of available product variations. Includes pricing information
@@ -31,7 +29,6 @@ public class ProductvariantsAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -103,7 +100,4 @@ public class ProductvariantsAPI: APIBase {
         return requestBuilder.init(method: "GET", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
 }
-
-

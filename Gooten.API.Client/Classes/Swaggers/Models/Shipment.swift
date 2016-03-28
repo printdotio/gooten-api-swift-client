@@ -27,4 +27,3 @@ public class Shipment: JSONEncodable {
         return dictionary
     }
 }
-

@@ -29,4 +29,3 @@ public class PreconfiguredProductImage: JSONEncodable {
         return dictionary
     }
 }
-

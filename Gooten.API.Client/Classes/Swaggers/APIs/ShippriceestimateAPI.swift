@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class ShippriceestimateAPI: APIBase {
-
     /**
      
      Get a baseline ship price for an item
@@ -26,7 +24,6 @@ public class ShippriceestimateAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -69,7 +66,4 @@ public class ShippriceestimateAPI: APIBase {
         return requestBuilder.init(method: "GET", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
 }
-
-

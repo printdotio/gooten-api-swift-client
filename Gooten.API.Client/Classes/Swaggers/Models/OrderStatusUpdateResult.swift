@@ -23,4 +23,3 @@ public class OrderStatusUpdateResult: JSONEncodable {
         return dictionary
     }
 }
-

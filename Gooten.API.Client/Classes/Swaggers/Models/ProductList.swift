@@ -23,4 +23,3 @@ public class ProductList: JSONEncodable {
         return dictionary
     }
 }
-

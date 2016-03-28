@@ -25,4 +25,3 @@ public class ImageValidationVm: JSONEncodable {
         return dictionary
     }
 }
-

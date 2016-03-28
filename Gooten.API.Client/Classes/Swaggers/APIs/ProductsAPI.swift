@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class ProductsAPI: APIBase {
-
     /**
      
      Get a list of products
@@ -30,7 +28,6 @@ public class ProductsAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -108,7 +105,4 @@ public class ProductsAPI: APIBase {
         return requestBuilder.init(method: "GET", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
 }
-
-

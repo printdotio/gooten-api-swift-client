@@ -39,4 +39,3 @@ public class ProductOption: JSONEncodable {
         return dictionary
     }
 }
-

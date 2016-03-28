@@ -25,4 +25,3 @@ public class ShipItem: JSONEncodable {
         return dictionary
     }
 }
-

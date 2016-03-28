@@ -25,4 +25,3 @@ public class Meta: JSONEncodable {
         return dictionary
     }
 }
-

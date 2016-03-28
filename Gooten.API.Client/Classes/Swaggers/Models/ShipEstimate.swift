@@ -31,4 +31,3 @@ public class ShipEstimate: JSONEncodable {
         return dictionary
     }
 }
-

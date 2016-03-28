@@ -23,4 +23,3 @@ public class Payment: JSONEncodable {
         return dictionary
     }
 }
-

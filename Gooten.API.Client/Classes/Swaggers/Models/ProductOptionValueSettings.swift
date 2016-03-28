@@ -27,4 +27,3 @@ public class ProductOptionValueSettings: JSONEncodable {
         return dictionary
     }
 }
-

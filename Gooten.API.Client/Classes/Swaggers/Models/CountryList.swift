@@ -23,4 +23,3 @@ public class CountryList: JSONEncodable {
         return dictionary
     }
 }
-

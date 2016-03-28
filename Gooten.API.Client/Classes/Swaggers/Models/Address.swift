@@ -31,4 +31,3 @@ public class Address: JSONEncodable {
         return dictionary
     }
 }
-

@@ -25,4 +25,3 @@ public class ProductVariantResponse: JSONEncodable {
         return dictionary
     }
 }
-

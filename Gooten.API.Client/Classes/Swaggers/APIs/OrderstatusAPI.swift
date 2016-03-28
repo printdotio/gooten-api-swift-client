@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class OrderstatusAPI: APIBase {
-
     /**
      
      Update an order status
@@ -26,7 +24,6 @@ public class OrderstatusAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -61,7 +58,4 @@ public class OrderstatusAPI: APIBase {
         return requestBuilder.init(method: "POST", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
 }
-
-

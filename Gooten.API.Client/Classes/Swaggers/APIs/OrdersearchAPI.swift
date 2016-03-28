@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class OrdersearchAPI: APIBase {
-
     /**
      
      Search an orders
@@ -34,7 +32,6 @@ public class OrdersearchAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -125,7 +122,4 @@ public class OrdersearchAPI: APIBase {
         return requestBuilder.init(method: "GET", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
 }
-
-

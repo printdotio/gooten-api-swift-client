@@ -29,4 +29,3 @@ public class Item: JSONEncodable {
         return dictionary
     }
 }
-

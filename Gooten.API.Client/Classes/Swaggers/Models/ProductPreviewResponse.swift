@@ -27,4 +27,3 @@ public class ProductPreviewResponse: JSONEncodable {
         return dictionary
     }
 }
-

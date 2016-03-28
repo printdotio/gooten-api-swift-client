@@ -29,4 +29,3 @@ public class Result: JSONEncodable {
         return dictionary
     }
 }
-

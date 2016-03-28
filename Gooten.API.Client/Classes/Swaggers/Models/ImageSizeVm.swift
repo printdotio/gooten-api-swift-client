@@ -27,4 +27,3 @@ public class ImageSizeVm: JSONEncodable {
         return dictionary
     }
 }
-

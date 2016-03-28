@@ -27,4 +27,3 @@ public class ValidationFailure: JSONEncodable {
         return dictionary
     }
 }
-

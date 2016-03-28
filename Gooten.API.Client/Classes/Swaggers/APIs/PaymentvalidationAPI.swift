@@ -9,9 +9,7 @@ import Alamofire
 
 
 
-
 public class PaymentvalidationAPI: APIBase {
-
     /**
      
      Submit payment validation for PayPal
@@ -25,7 +23,6 @@ public class PaymentvalidationAPI: APIBase {
             completion(data: response?.body, error: error);
         }
     }
-
 
 
     /**
@@ -58,7 +55,4 @@ public class PaymentvalidationAPI: APIBase {
         return requestBuilder.init(method: "GET", URLString: URLString, parameters: parameters, isBody: false)
     }
 
-
 }
-
-

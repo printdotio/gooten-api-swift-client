@@ -47,4 +47,3 @@ public class PostSubmittedOrder: JSONEncodable {
         return dictionary
     }
 }
-

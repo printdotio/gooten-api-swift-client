@@ -37,4 +37,3 @@ public class PreconfiguredProductInsert: JSONEncodable {
         return dictionary
     }
 }
-
